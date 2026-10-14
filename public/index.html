@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Luke Litman · Reels</title>
+<style>
+  :root { --bg: #0a0a0f; --card: #111118; --ink: #eeeef2; --dim: #9494a3; --accent: #e07a2f; --line: #1e1e2a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 Inter, system-ui, sans-serif; }
+  main { max-width: 1200px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font: 700 28px/1.2 "Space Grotesk", system-ui, sans-serif; letter-spacing: 0.02em; margin: 0 0 4px; }
+  .sub { color: var(--dim); margin: 0 0 32px; }
+  .sub a { color: var(--accent); }
+  h2 { font: 700 18px/1.2 "Space Grotesk", system-ui, sans-serif; text-transform: uppercase; letter-spacing: 0.12em; margin: 40px 0 12px; border-top: 1px solid var(--line); padding-top: 24px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+  .cut { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 12px; }
+  .cut video { width: 100%; border-radius: 4px; background: #000; display: block; }
+  .cut h3 { margin: 10px 0 4px; font-size: 14px; }
+  .links { display: flex; flex-wrap: wrap; gap: 6px; font-size: 12px; }
+  .links a, .links button { color: var(--dim); background: none; border: 1px solid var(--line); border-radius: 4px; padding: 2px 8px; font: inherit; cursor: pointer; text-decoration: none; }
+  .links a:hover, .links button:hover { color: var(--ink); border-color: var(--accent); }
+  .meta { color: var(--dim); font-size: 12px; margin-top: 6px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Reels</h1>
+  <p class="sub">Section reels for <a href="https://portfolio.ironreach.xyz/">portfolio.ironreach.xyz</a>. Every link here always plays the current cut.</p>
+  <div id="list">Loading…</div>
+</main>
+<script>
+const ORDER = ['techart', 'design', 'gamedev', 'ai', 'lab', 'forge'];
+const NAMES = { techart: 'Tech Art', design: 'Design', gamedev: 'Game Dev', ai: 'AI Tooling', lab: 'The Lab', forge: 'HEPHforge' };
+const PLAY = ['4x5', '16x9', '9x16', '1x1', '720', 'av1', '360'];
+fetch('/manifest.json', { cache: 'no-cache' }).then((r) => r.json()).then((m) => {
+  const list = document.getElementById('list');
+  list.textContent = '';
+  const sections = Object.keys(m.reels).sort((a, b) => (ORDER.indexOf(a) + 99) % 99 - (ORDER.indexOf(b) + 99) % 99);
+  if (!sections.length) { list.textContent = 'Nothing published yet.'; return; }
+  for (const s of sections) {
+    const h = document.createElement('h2'); h.textContent = NAMES[s] || s; list.appendChild(h);
+    const grid = document.createElement('div'); grid.className = 'grid'; list.appendChild(grid);
+    for (const [cut, files] of Object.entries(m.reels[s])) {
+      const card = document.createElement('div'); card.className = 'cut';
+      const main = PLAY.find((k) => files[k]);
+      if (main) {
+        const v = document.createElement('video');
+        v.src = '/' + files[main]; v.muted = true; v.loop = true; v.playsInline = true; v.controls = true; v.preload = 'metadata';
+        if (files.poster) v.poster = '/' + files.poster;
+        card.appendChild(v);
+      }
+      const t = document.createElement('h3'); t.textContent = cut; card.appendChild(t);
+      const links = document.createElement('div'); links.className = 'links';
+      for (const [k, f] of Object.entries(files)) {
+        if (typeof f !== 'string' || !f.startsWith('v/')) continue;
+        const a = document.createElement('a'); a.href = '/' + f; a.textContent = k; a.download = ''; links.appendChild(a);
+      }
+      const b = document.createElement('button'); b.textContent = 'copy link';
+      b.onclick = () => { navigator.clipboard.writeText(location.origin + '/' + files[main]); b.textContent = 'copied'; };
+      if (main) links.appendChild(b);
+      card.appendChild(links);
+      const meta = document.createElement('p'); meta.className = 'meta'; meta.textContent = 'updated ' + (files.updated || '').replace('T', ' ').slice(0, 16) + (files.note ? ' · ' + files.note : '');
+      card.appendChild(meta);
+      grid.appendChild(card);
+    }
+  }
+}).catch(() => { document.getElementById('list').textContent = 'Could not load the manifest.'; });
+</script>
+</body>
+</html>
