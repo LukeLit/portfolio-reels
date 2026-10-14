@@ -1,12 +1,12 @@
 {
   "key": "lab.site",
   "files": {
-    "360": "v/lab/sizzle-360.00203348.mp4",
-    "720": "v/lab/sizzle-720.024ae848.mp4",
-    "av1": "v/lab/sizzle-720.af429639.webm",
+    "360": "v/lab/sizzle-360.78995234.mp4",
+    "720": "v/lab/sizzle-720.03235937.mp4",
+    "av1": "v/lab/sizzle-720.a3372873.webm",
     "poster": "v/lab/sizzle-poster.20c9be05.webp",
-    "timing": "v/lab/sizzle-timing.69382fea.json"
+    "timing": "v/lab/sizzle-timing.9078b87d.json"
   },
-  "updated": "2026-10-14T17:55:41.895Z",
-  "note": "The Lab reel, first cut: 21.4 s, 11 shots; beat the diary carousel 3-0 and won the whole-reel panel 9/9"
+  "updated": "2026-10-14T19:54:36.305Z",
+  "note": "Recut: real Den Crawler Bear play from the live site (Luke's PC capture) after the boss beat; won its panel 3-0 against the published cut"
 }
