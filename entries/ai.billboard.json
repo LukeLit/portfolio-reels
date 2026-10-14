@@ -1,0 +1,9 @@
+{
+  "key": "ai.billboard",
+  "files": {
+    "720": "v/ai/billboard-720.4c77d9c6.mp4",
+    "poster": "v/ai/billboard-poster.84876643.webp"
+  },
+  "updated": "2026-10-14T23:23:40.786Z",
+  "note": "AI lane billboard as shipped in #435 (shots 1-4 looped, 10.6 s); same files as the committed fallback"
+}
