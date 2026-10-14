@@ -1,0 +1,53 @@
+{
+ "duration": 18.133,
+ "shots": [
+  {
+   "start": 0.0,
+   "end": 1.967,
+   "game": "GATEforge · routing",
+   "href": "#card-gateforge"
+  },
+  {
+   "start": 1.967,
+   "end": 3.967,
+   "game": "HEPHforge · twelve tools",
+   "href": "#card-hephforge"
+  },
+  {
+   "start": 3.967,
+   "end": 6.167,
+   "game": "NODEforge · a real run",
+   "href": "#card-nodeforge"
+  },
+  {
+   "start": 6.167,
+   "end": 10.5,
+   "game": "NODEforge · Human Approval",
+   "href": "#card-nodeforge"
+  },
+  {
+   "start": 10.5,
+   "end": 12.267,
+   "game": "ANVIL · builder",
+   "href": "#card-hephforge"
+  },
+  {
+   "start": 12.267,
+   "end": 14.033,
+   "game": "WIKIforge · cluster board",
+   "href": "#card-wikiforge"
+  },
+  {
+   "start": 14.033,
+   "end": 15.933,
+   "game": "HEPHforge · the hall",
+   "href": "#card-hephforge"
+  },
+  {
+   "start": 15.933,
+   "end": 18.133,
+   "game": "GATEforge · free lane",
+   "href": "#card-gateforge"
+  }
+ ]
+}

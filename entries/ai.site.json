@@ -1,0 +1,12 @@
+{
+  "key": "ai.site",
+  "files": {
+    "360": "v/ai/sizzle-360.a3b262e4.mp4",
+    "720": "v/ai/sizzle-720.645aa36e.mp4",
+    "av1": "v/ai/sizzle-720.ecdf3a76.webm",
+    "poster": "v/ai/sizzle-poster.84876643.webp",
+    "timing": "v/ai/sizzle-timing.4459ea2d.json"
+  },
+  "updated": "2026-10-14T23:23:33.117Z",
+  "note": "AI Tooling site loop as approved and shipped in #435 (18.1 s); same files as the committed fallback"
+}
