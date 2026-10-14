@@ -1,12 +1,12 @@
 {
   "key": "design.site",
   "files": {
-    "360": "v/design/sizzle-360.c308a481.mp4",
-    "720": "v/design/sizzle-720.59beeb0d.mp4",
-    "av1": "v/design/sizzle-720.d7d329c1.webm",
+    "360": "v/design/sizzle-360.2ef29a5d.mp4",
+    "720": "v/design/sizzle-720.28cfcf6e.mp4",
+    "av1": "v/design/sizzle-720.8a9fd32b.webm",
     "poster": "v/design/sizzle-poster.762807b7.webp",
-    "timing": "v/design/sizzle-timing.8bdbc12a.json"
+    "timing": "v/design/sizzle-timing.edf2eb85.json"
   },
-  "updated": "2026-10-14T17:31:28.113Z",
-  "note": "Design site loop v1: timing map uses the chip key hero-feature.js reads"
+  "updated": "2026-10-14T19:54:16.008Z",
+  "note": "Design site loop v3: live studio sites (Popz, JAMforge, Skyburn, MetaSin) from Luke's PC captures; 21.1 s"
 }
