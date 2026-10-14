@@ -1,0 +1,12 @@
+{
+  "key": "design.site",
+  "files": {
+    "360": "v/design/sizzle-360.c308a481.mp4",
+    "720": "v/design/sizzle-720.59beeb0d.mp4",
+    "av1": "v/design/sizzle-720.d7d329c1.webm",
+    "poster": "v/design/sizzle-poster.762807b7.webp",
+    "timing": "v/design/sizzle-timing.480d2055.json"
+  },
+  "updated": "2026-10-14T17:30:20.571Z",
+  "note": "Design site loop v1: 16.3 s, 10 shots; live-site slots to come"
+}
