@@ -1,10 +1,10 @@
 {
   "key": "design.social",
   "files": {
-    "4x5": "v/design/design-social-1080x1350.c739c49a.mp4",
-    "16x9": "v/design/design-social-1920x1080.0da20e79.mp4",
-    "9x16": "v/design/design-social-1080x1920.23734d2e.mp4"
+    "4x5": "v/design/design-social-1080x1350.3e889033.mp4",
+    "16x9": "v/design/design-social-1920x1080.ba4ddf46.mp4",
+    "9x16": "v/design/design-social-1080x1920.e006251e.mp4"
   },
-  "updated": "2026-10-14T17:30:30.653Z",
-  "note": "Design social v1: 26.6 s"
+  "updated": "2026-10-14T19:54:21.237Z",
+  "note": "Design social v3: live studio sites added, 28.6 s"
 }
