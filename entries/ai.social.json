@@ -1,0 +1,10 @@
+{
+  "key": "ai.social",
+  "files": {
+    "4x5": "v/ai/social-1080x1350.255c1c56.mp4",
+    "16x9": "v/ai/social-1920x1080.e5e558f5.mp4",
+    "9x16": "v/ai/social-1080x1920.11f124fd.mp4"
+  },
+  "updated": "2026-10-15T00:01:17.516Z",
+  "note": "AI Tooling social cuts, 21.4 s, silent, ending on portfolio.ironreach.xyz /ai; re-rendered locally from fresh captures of the same plans (the cloud masters were lost)"
+}
