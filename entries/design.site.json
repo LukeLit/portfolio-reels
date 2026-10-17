@@ -1,12 +1,12 @@
 {
   "key": "design.site",
   "files": {
-    "360": "v/design/sizzle-360.2ef29a5d.mp4",
-    "720": "v/design/sizzle-720.28cfcf6e.mp4",
-    "av1": "v/design/sizzle-720.8a9fd32b.webm",
+    "360": "v/design/sizzle-360.764f0089.mp4",
+    "720": "v/design/sizzle-720.de376831.mp4",
+    "av1": "v/design/sizzle-720.75e38583.webm",
     "poster": "v/design/sizzle-poster.762807b7.webp",
-    "timing": "v/design/sizzle-timing.edf2eb85.json"
+    "timing": "v/design/sizzle-timing.50e87a5e.json"
   },
-  "updated": "2026-10-14T19:54:16.008Z",
-  "note": "Design site loop v3: live studio sites (Popz, JAMforge, Skyburn, MetaSin) from Luke's PC captures; 21.1 s"
+  "updated": "2026-10-17T18:25:49.937Z",
+  "note": "Design site loop v4: the first HEPHforge brand-bible board scroll cut (Luke: weak for Design, belongs in AI); the NODEforge chip morph stays; 19.3 s"
 }

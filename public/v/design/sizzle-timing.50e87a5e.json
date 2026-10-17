@@ -1,0 +1,83 @@
+{
+ "duration": 19.3,
+ "shots": [
+  {
+   "start": 0.0,
+   "end": 2.4,
+   "game": "Empelt \u00b7 brand directions",
+   "href": "#card-empelt"
+  },
+  {
+   "start": 2.4,
+   "end": 4.6,
+   "game": "Signal Community Radio \u00b7 concept",
+   "href": "#card-ironreach"
+  },
+  {
+   "start": 4.6,
+   "end": 6.1,
+   "game": "Popz Games \u00b7 website",
+   "href": "#card-dfl-popz"
+  },
+  {
+   "start": 6.1,
+   "end": 8.1,
+   "game": "HEPHforge \u00b7 brand bible",
+   "href": "#card-hephforge-brand"
+  },
+  {
+   "start": 8.1,
+   "end": 10.0,
+   "game": "Main Street Millhaven \u00b7 concept",
+   "href": "#card-ironreach"
+  },
+  {
+   "start": 10.0,
+   "end": 11.5,
+   "game": "JAMforge \u00b7 Discover",
+   "href": "/ai#card-gamejam"
+  },
+  {
+   "start": 11.5,
+   "end": 13.0,
+   "game": "Skyburn \u00b7 case-study site",
+   "href": "#card-skyburn-site"
+  },
+  {
+   "start": 13.0,
+   "end": 13.4,
+   "game": "HEPHforge \u00b7 twelve landing pages",
+   "href": "#card-hephforge-brand"
+  },
+  {
+   "start": 13.4,
+   "end": 13.8,
+   "game": "HEPHforge \u00b7 twelve landing pages",
+   "href": "#card-hephforge-brand"
+  },
+  {
+   "start": 13.8,
+   "end": 14.2,
+   "game": "HEPHforge \u00b7 twelve landing pages",
+   "href": "#card-hephforge-brand"
+  },
+  {
+   "start": 14.2,
+   "end": 15.7,
+   "game": "MetaSin Games \u00b7 studio site",
+   "href": "#card-metasin"
+  },
+  {
+   "start": 15.7,
+   "end": 17.7,
+   "game": "IronReach \u00b7 studio site",
+   "href": "#card-ironreach"
+  },
+  {
+   "start": 17.7,
+   "end": 19.3,
+   "game": "Open Call \u00b7 landing page",
+   "href": "#card-open-call"
+  }
+ ]
+}
