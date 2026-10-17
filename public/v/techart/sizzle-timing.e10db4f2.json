@@ -1,0 +1,41 @@
+{
+ "duration": 20.4,
+ "shots": [
+  {
+   "start": 0,
+   "end": 3.6,
+   "game": "Skyburn \u00b7 Unity vertical slice",
+   "href": "#card-skyburn"
+  },
+  {
+   "start": 3.6,
+   "end": 5.6,
+   "game": "Prize Kingdoms \u00b7 Lead Technical Artist",
+   "href": "/gamedev#game-prize-kingdoms"
+  },
+  {
+   "start": 5.6,
+   "end": 9.7,
+   "game": "Unity editor tool \u00b7 art pipeline",
+   "href": "#cap-editor-extensions"
+  },
+  {
+   "start": 9.7,
+   "end": 13.0,
+   "game": "Cursebound \u00b7 in-game HUD",
+   "href": "/gamedev#game-cursebound"
+  },
+  {
+   "start": 13.0,
+   "end": 18.4,
+   "game": "The 3D room \u00b7 three.js",
+   "href": "/?space=1"
+  },
+  {
+   "start": 18.4,
+   "end": 20.4,
+   "game": "Luke Litman \u00b7 Technical Artist",
+   "href": "#skills"
+  }
+ ]
+}
