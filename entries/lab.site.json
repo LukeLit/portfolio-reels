@@ -1,12 +1,12 @@
 {
   "key": "lab.site",
   "files": {
-    "360": "v/lab/sizzle-360.78995234.mp4",
-    "720": "v/lab/sizzle-720.03235937.mp4",
-    "av1": "v/lab/sizzle-720.a3372873.webm",
+    "360": "v/lab/sizzle-360.7f9df66f.mp4",
+    "720": "v/lab/sizzle-720.c3ad84bc.mp4",
+    "av1": "v/lab/sizzle-720.285bcbf5.webm",
     "poster": "v/lab/sizzle-poster.20c9be05.webp",
-    "timing": "v/lab/sizzle-timing.9078b87d.json"
+    "timing": "v/lab/sizzle-timing.7df15e9c.json"
   },
-  "updated": "2026-10-14T19:54:36.305Z",
-  "note": "Recut: real Den Crawler Bear play from the live site (Luke's PC capture) after the boss beat; won its panel 3-0 against the published cut"
+  "updated": "2026-10-19T17:37:22.687Z",
+  "note": "v3: cut the Den Crawler Bear Showrunner boss (Grok-animated painting) and the Bearsconian play take that held P (green tri-bomb); 18.2 s"
 }

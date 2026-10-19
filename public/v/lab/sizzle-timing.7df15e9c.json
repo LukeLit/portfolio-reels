@@ -1,0 +1,59 @@
+{
+ "duration": 18.2,
+ "shots": [
+  {
+   "start": 0.0,
+   "end": 2.8,
+   "game": "StarCzar \u00b7 Lead Artist",
+   "href": "#illustration"
+  },
+  {
+   "start": 2.8,
+   "end": 4.4,
+   "game": "The Wizard",
+   "href": "#personal-art"
+  },
+  {
+   "start": 4.4,
+   "end": 6.2,
+   "game": "Last Stand",
+   "href": "#personal-art"
+  },
+  {
+   "start": 6.2,
+   "end": 8.2,
+   "game": "Custom chess set",
+   "href": "#craft"
+  },
+  {
+   "start": 8.2,
+   "end": 10.2,
+   "game": "The room's chess table",
+   "href": "/?space=1"
+  },
+  {
+   "start": 10.2,
+   "end": 12.6,
+   "game": "Den Crawler Bear",
+   "href": "/diary/den-crawler-bear.html"
+  },
+  {
+   "start": 12.6,
+   "end": 14.6,
+   "game": "Bearsconian",
+   "href": "/diary/bullet-heaven.html"
+  },
+  {
+   "start": 14.6,
+   "end": 16.4,
+   "game": "HEPHbuild",
+   "href": "/diary/hephbuild.html"
+  },
+  {
+   "start": 16.4,
+   "end": 18.2,
+   "game": "Star Czar",
+   "href": "#personal-art"
+  }
+ ]
+}
